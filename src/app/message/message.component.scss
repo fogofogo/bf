@@ -1,0 +1,22 @@
+.notification-container {
+    display: flex;
+    align-items: center;
+}
+
+.notification-icon {
+    padding: 0 .8rem;
+    font-size: 1.4rem;
+}
+
+.notification-text {
+
+    .text {
+        display: block;
+        font-size: .8rem;
+    }
+
+     .date {
+        display: block;
+        font-size: .7rem;
+    }
+}

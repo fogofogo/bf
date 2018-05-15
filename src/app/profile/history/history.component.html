@@ -1,0 +1,27 @@
+<h2 class="title">Your play history</h2>
+
+<table class="striped">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Name</th>
+      <th>Status</th>
+      <th>Player position</th>
+      <th>Total players</th>
+      <th>Points</th>
+      <th>Buy in price</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let competition of previousCompetitions">
+      <td>{{competition.competitionId}}</td>
+      <td>{{competition.competitionName}}</td>
+      <td>{{competition.competitionStatus}}</td>
+      <td>{{competition.userPosition}}</td>
+      <td>{{competition.totalUsers}}</td>
+      <td>{{competition.userPotShare}}</td>
+      <td>{{competition.buyInPrice}}</td>
+    </tr>
+
+  </tbody>
+</table>

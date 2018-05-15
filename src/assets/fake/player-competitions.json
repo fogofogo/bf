@@ -1,0 +1,22 @@
+[
+    {
+        "competitionId": 78547,
+        "competitionName": "Football friday",
+        "competitionStatus": "running",
+        "userJoined": "datetime",
+        "userPosition": "12",
+        "totalUsers": "250",
+        "userPotShare": "234",
+        "buyInPrice": "8"
+    },
+    {
+        "competitionId": 89893,
+        "competitionName": "Rugby friday",
+        "competitionStatus": "Finished",
+        "userJoined": "datetime",
+        "userPosition": "190",
+        "totalUsers": "250",
+        "userPotShare": "0",
+        "buyInPrice": "10"
+    }
+]

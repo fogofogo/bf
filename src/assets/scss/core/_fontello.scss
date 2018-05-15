@@ -1,0 +1,123 @@
+@font-face {
+  font-family: 'fontello';
+  src: url('/assets/font/fontello.eot?57712414');
+  src: url('/assets/font/fontello.eot?57712414#iefix') format('embedded-opentype'), 
+  url('/assets/font/fontello.woff2?57712414') format('woff2'), 
+  url('/assets/font/fontello.woff?57712414') format('woff'), 
+  url('/assets/font/fontello.ttf?57712414') format('truetype'), 
+  url('/assets/font/fontello.svg?57712414#fontello') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+
+
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('/assets/font/fontello.svg?83406493#fontello') format('svg');
+  }
+}
+*/
+
+[class^="icon-"]:before,
+[class*=" icon-"]:before {
+  font-family: "fontello";
+  font-style: normal;
+  font-weight: normal;
+  speak: none;
+  display: inline-block;
+  text-decoration: inherit;
+  width: 1em;
+  margin-right: .2em;
+  text-align: center;
+  /* opacity: .8; */
+  /* For safety - reset parent styles, that can break glyph codes*/
+  font-variant: normal;
+  text-transform: none;
+  /* fix buttons height, for twitter bootstrap */
+  line-height: 1em;
+  /* Animation center compensation - margins should be symmetric */
+  /* remove if not needed */
+  margin-left: .2em;
+  /* you can be more comfortable with increased icons size */
+  /* font-size: 120%; */
+  /* Font smoothing. That was taken from TWBS */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* Uncomment for 3D effect */
+  /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+
+.icon-money:before { content: '\e800'; } /* '' */
+.icon-users:before { content: '\e801'; } /* '' */
+.icon-stopwatch:before { content: '\e802'; } /* '' */
+.icon-down-open:before { content: '\e803'; } /* '' */
+.icon-key:before { content: '\e804'; } /* '' */
+.icon-user:before { content: '\e805'; } /* '' */
+.icon-cog:before { content: '\e806'; } /* '' */
+.icon-pencil:before { content: '\e807'; } /* '' */
+.icon-clock:before { content: '\e808'; } /* '' */
+.icon-lock:before { content: '\e809'; } /* '' */
+.icon-exchange:before { content: '\e80a'; } /* '' */
+.icon-attention:before { content: '\e80b'; } /* '' */
+.icon-award:before { content: '\e80c'; } /* '' */
+.icon-cancel:before { content: '\e80d'; } /* '' */
+.icon-home-outline:before { content: '\e80e'; } /* '' */
+.icon-login:before { content: '\e80f'; } /* '' */
+.icon-logout:before { content: '\e810'; } /* '' */
+.icon-list:before { content: '\e811'; } /* '' */
+.icon-calculator:before { content: '\e812'; } /* '' */
+.icon-trash-empty:before { content: '\e813'; } /* '' */
+.icon-cancel-circled-outline:before { content: '\e814'; } /* '' */
+.icon-check:before { content: '\e815'; } /* '' */
+.icon-emo-happy:before { content: '\e816'; } /* '' */
+.icon-emo-unhappy:before { content: '\e817'; } /* '' */
+.icon-cancel-circled2:before { content: '\e818'; } /* '' */
+.icon-ok-circled2:before { content: '\e819'; } /* '' */
+.icon-check-empty:before { content: '\f096'; } /* '' */
+.icon-bell-alt:before { content: '\f0f3'; } /* '' */
+.icon-gamepad:before { content: '\f11b'; } /* '' */
+.icon-left:before { content: '\f177'; } /* '' */
+.icon-cube:before { content: '\f1b2'; } /* '' */
+.icon-history:before { content: '\f1da'; } /* '' */
+.icon-soccer-ball:before { content: '\f1e3'; } /* '' */
+.icon-binoculars:before { content: '\f1e5'; } /* '' */
+
+.icon-competition-start { 
+  @extend .icon-stopwatch;
+  }
+
+  .icon-competition-rules {
+    @extend .icon-attention;
+  }
+
+  .icon-competition-bet-win {
+    @extend .icon-award;
+  }
+
+   .icon-competition-join {
+    @extend .icon-check;
+  }
+
+  
+
+  .icon-profile {
+    @extend .icon-lock;
+  }
+
+  .icon-Pending {
+    @extend .icon-clock;
+  }
+
+   .icon-Fail {
+         font-size: .6rem;
+    @extend .icon-cancel;
+  }
+
+  .icon-Success {
+    @extend .icon-award;
+  }

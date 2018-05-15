@@ -1,0 +1,40 @@
+@import "../../assets/scss/core/_variables";
+.profile {
+    margin-top: 20px;
+}
+
+.profile-nav {
+    background: $accent-color;
+    font-weight: 700;
+    font-size: .75em;
+    display: flex;
+    flex-direction: column;
+    a {
+        color: $white;
+        padding: 8px 10px;
+        display: block;
+        transition: 0.3s ease;
+        &:hover {
+            color: $bet-yellow;
+            background-color: #434343;
+        }
+        &.active {
+            color: $bet-yellow;
+            @media screen and (min-width: 887px) {
+                background-color: #434343;
+            }
+        }
+    }
+    i {
+        display: none;
+    }
+    @media screen and (min-width: 887px) {
+        a {
+            padding: 13px 20px;
+        }
+        i {
+            display: inline;
+            font-size: 1rem;
+        }
+    }
+}

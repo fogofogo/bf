@@ -1,0 +1,17 @@
+<h2 class="title">Time out</h2>
+
+If you wish to self-exclude from your account for I while, then select the time period from the dropdown below and select
+'submit'
+
+
+<form [formGroup]="formSetTimeOut" (ngSubmit)="setTimeOut(selectTimeOutDuration.value)">
+  <span>Length of time:</span>
+  <select #selectTimeOutDuration formControlName="selectTimeOutPeriod">
+   <option *ngFor="let timeOutDuration of timeOutDurations" [value]="timeOutDuration">
+         {{ timeOutDuration | translate}}
+    </option>
+</select>
+  <div class="actions">
+    <button class="btn-main-3d register"  type="submit">submit</button>
+  </div>
+</form>

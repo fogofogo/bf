@@ -1,0 +1,100 @@
+
+// btn theming mixin 
+@mixin btn-theme-3d($btn-color, $text-colour:white) {
+    text-shadow: 1px 1px 0px darken($btn-color, 30%);
+    font-weight: 700;
+    background: $btn-color;
+    border-radius: 2px;
+    box-shadow: 0 3px 0 0 darken($btn-color, 20%);
+    color: $text-colour;
+    padding: .2rem .8rem;
+    text-align: center;
+    font-size: 1rem;
+    border: none;
+    transition: all .2s ease-in-out;
+
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 6px 0 0 darken($btn-color, 20%);
+        color: $text-colour
+    }
+    &:active {
+        transform: translateY(3px);
+        background: darken($btn-color, 20%);
+        box-shadow: 0 0 0 0 darken($btn-color, 50%);
+    }
+    &:disabled {
+        pointer-events: none;
+        cursor: none;
+        background: $grey;
+        transform: translateY(0);
+        box-shadow: 0 3px 0 0 grey;
+        color: #222;
+        text-shadow: none;
+    }
+}
+
+
+
+.btn {
+    text-align: center;
+    padding: 2px;
+    display: block;
+    cursor: pointer;
+    transition: all 0.2s ease;
+
+    text: {
+        transform: uppercase;
+        decoration: none;
+        shadow: 0 .063em rgba(0, 0, 0, .3);
+    }
+}
+
+
+
+.btn-market {
+    border: solid 1px $grey;
+    padding: 7px;
+    border-radius: 2px;
+    font-size: .75em;
+    box-shadow: 0 1px 0 0 $bet-grey--lighter;
+
+    &:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 3px 0 0 $bet-grey--lighter;
+        border: solid 1px $bet-grey--lighter;
+    }
+}
+
+
+.no-bsh {
+    box-shadow: none !important;
+    transform: translateY(0) !important;
+
+    &:hover {
+        background-color: $accent-color !important;
+        // color: $white !important;
+    }
+}
+
+
+.btn-main-3d {
+    @include btn-theme-3d($attention-color);
+}
+
+.btn-grey-3d {
+    @include btn-theme-3d($grey, black);
+}
+
+.btn-grey--dark-3d {
+    @include btn-theme-3d($bet-grey, $white);
+}
+
+.btn-yellow-3d {
+    @include btn-theme-3d(#ebbd05);
+}
+
+[disabled] {
+    cursor: not-allowed !important;
+}
+

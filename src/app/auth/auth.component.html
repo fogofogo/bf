@@ -1,0 +1,83 @@
+<div class="container login">
+  <div class="row">
+
+    <div class=" col s12 l6">
+      <div class="card">
+        <div class="auth-headline text-center mb-25">
+          <h2 class="title">{{ title }}</h2>
+        </div>
+        <list-errors [errors]="errors"></list-errors>
+
+        <div>
+          <h3>Temporary sign in</h3>
+          <p>Enter the player id you wish to sign in with</p>
+          <input #id placeholder="Enter player id" type="text" /> 
+          <br> <br> 
+          <button class="btn-yellow-3d no-bsh register" (click)="tempSignIn(id.value)" >
+              Sign in with player id
+            </button>
+            
+        </div>
+        <br> <br> <br>
+
+        <form [formGroup]="authForm" (ngSubmit)="submitForm()">
+
+          <fieldset *ngIf="authType == 'register'" class="row">
+            <div class=" col s12 l6">
+              <label>First name</label>
+              <input formControlName="firstname" placeholder="Enter your first name" type="text" />
+            </div>
+            <div class=" col s12 l6">
+              <label>Last name</label>
+              <input formControlName="lastname" placeholder="Enter your last name" type="text" />
+            </div>
+          </fieldset>
+
+          <fieldset *ngIf="authType == 'register' || authType == 'login'">
+            <label>Username</label>
+            <input class="username" formControlName="username" placeholder="Username" type="text" />
+          </fieldset>
+
+          <fieldset *ngIf="authType == 'register'" class="dob">
+            <label>Date of birth</label>
+            <input formControlName="day" maxlength="2"  [maxLength]="2" placeholder="DD" type="text" (keyup)="keytab($event, 2)"/>
+            <input formControlName="month" maxlength="2" placeholder="MM" type="text" (keyup)="keytab($event, 2)"/>
+            <input formControlName="year" maxlength="4" placeholder="YYYY" type="text" />
+          </fieldset>
+
+          <fieldset *ngIf="authType == 'register' || authType == 'password'">
+            <label>Email</label>
+            <input formControlName="email" placeholder="Enter your email" type="text" />
+            <span *ngIf="authForm.hasError('email', 'email') && authForm.get('email').touched">
+               Please enter the correct email, this email not valid.
+            </span>
+          </fieldset>
+
+          <fieldset *ngIf="authType == 'login' || authType == 'register'">
+            <label>Password</label>
+            <input class="password" formControlName="password" placeholder="&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;&#9679;" type="password" />
+          </fieldset>
+
+          <fieldset *ngIf="authType == 'register'">
+            <p>
+              <input formControlName="terms" type="checkbox" id="terms" name="terms" value="terms">
+              <label for="terms" class="terms">I have read the
+                <a>Terms and Conditions</a>
+              </label>
+            </p>
+          </fieldset>
+
+          <button class="btn-yellow-3d no-bsh register" [disabled]="!authForm.valid" type="submit">
+              {{ title }}
+            </button>
+        </form>
+      </div>
+
+    </div>
+    <div class="col s12 l4 hide-on-med-and-down">
+      <div class="card">
+        Reasons to Join
+      </div>
+    </div>
+  </div>
+</div>

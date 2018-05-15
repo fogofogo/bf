@@ -1,0 +1,74 @@
+<div class="competition-details block clearfix" [ngClass]="{'hide-entry-price': isJoinedPlayer }">
+
+  <div class="entry-price has-text-white" *ngIf="!isJoinedPlayer">
+    <span class="price">{{ competition?.currencySymbol }}{{ competition?.buyInPrice | number: '1.0-0' }}</span>
+    <span class="entry">{{ 'shared.entry'  | translate  }}</span>
+  </div>
+
+  <div class="competition-name col s6">
+    <h2 class="title eli has-text-white">{{ competition?.name }}</h2>
+    <p class="eli has-text-white">{{ competition?.summary }}</p>
+  </div>
+
+
+  <div class="competiton-info col s12 m6">
+    <div class="competiton-statistics">
+
+      <div class="stat">
+        <span class="sm-label has-text-white ">{{ 'shared.startingSoon' | translate }}</span>
+        <div class="flex f-j-c ">
+          <i class="icon icon-stopwatch has-text-grey-lighter"></i>
+
+          <h3 class="t-c-y" *ngIf="showCountdown">
+            <count-down [inputDate]="competition?.startTime"></count-down>
+          </h3>
+          <h3 class="t-c-y" *ngIf="!showCountdown"> {{startsIn}}</h3>
+        </div>
+      </div>
+
+      <div class="stat">
+        <span class="sm-label has-text-white">{{ 'shared.players'  | translate  }}</span>
+        <div class="flex f-j-c ">
+          <i class="icon icon-users has-text-grey-lighter"></i>
+          <h3 class="t-c-y">{{ competition?.participantCount }}</h3>
+        </div>
+
+      </div>
+
+      <div class="stat">
+
+        <span class="sm-label has-text-white">{{ 'shared.pot' | translate  }}</span>
+        <div class="flex f-j-c ">
+          <i class="icon icon-money has-text-grey-lighter"></i>
+          <h3 class="t-c-y">£{{ calculatePot(competition?.buyInPrice, competition?.fee, competition?.participantCount) }}</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="competition-actions" *ngIf="!isJoinedPlayer">
+      <a routerLink="/login" *showAuthed="true" class="btn-main-3d" (click)="joinUserCompetition(competition?.id)">
+     join
+    </a>
+      <ng-container *ngIf="viewAction">
+        <a *ngIf="competition" [routerLink]="['/competition', competition?.id]" class="btn-yellow-3d">
+      view
+    </a>
+      </ng-container>
+    </div>
+  </div>
+
+</div>
+
+<modal #joinCompetition class="join-competiton-modal">
+
+  <ng-container header>
+    <h2>Join '{{ competition?.competitionName }}'</h2>
+  </ng-container>
+
+  <ng-container body>
+    <h3>Entry fee: £{{ competition?.buyInPrice }}</h3>
+    <p>£10 buys you 10,000 BFP</p>
+    <div *ngIf="error" class="error">You have insufficient balance.</div>
+  </ng-container>
+
+</modal>

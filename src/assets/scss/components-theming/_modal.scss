@@ -1,0 +1,135 @@
+  .modal {
+    background: rgba(0, 0, 0, 0.6);
+  }
+
+  .modal-content.card {
+    padding: 0;
+    background: transparent;
+  }
+
+  .modal-header {
+    padding: 10px 10px !important;
+    border-radius: 5px 5px 0 0;
+    background-color: $bet-yellow;
+    color: $white;
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: none;
+
+    h2 {
+      font-size: 18px;
+    }
+  }
+
+  .modal-body,
+  .modal-footer {
+    background-color: $white;
+  }
+
+  .modal-body {
+    padding-top:    30px !important;
+
+    h3 {
+      text-transform: uppercase;
+    }
+
+    p {
+      color: #787778;
+    }
+  }
+
+
+    .modal-footer {
+      padding: 30px !important;
+      border-top: none;
+      border-radius: 0 0 5px 5px;
+    }
+
+
+  // modal variations
+
+  .join-competiton-modal {
+
+    .modal-body__inner {
+      padding-left: 100px;
+
+      &:before {
+        background-image: url('./assets/img/comp-modal-icon.png');
+      }
+    }
+
+    .competition-actions a {
+      padding-top: 8px;
+      padding-bottom: 8px;
+      box-shadow: none;
+      transform: none !important;
+      border-radius: 0;
+      text-transform: uppercase;
+      text-shadow: none;
+
+      &:first-of-type {
+        margin-right: 20px !important;
+      }
+    }
+  }
+
+
+
+
+
+  .betslipModal {
+
+    .modal-dialog {
+      top: 0 !important;
+    }
+
+    .modal-content.card {
+      box-shadow: none;
+    }
+
+    .modal-body__inner {
+      display: block;
+      width: 100%;
+    }
+
+    .modal-body,
+    .modal-footer {
+      background-color: $accent-color;
+    }
+
+    .modal-body {
+      padding: 0 !important;
+    }
+
+    .bet-container {
+      margin-bottom: 0 !important;
+    }
+    .modal-header {
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .ng-trigger-betSlipItems {
+      max-height: calc(100vh - 214px);
+      overflow-y: auto;
+
+      div:not(:last-of-type) {
+        margin-bottom: 10px;
+      }
+    }
+
+    .modal-footer {
+      padding: 0 0 5px !important;
+      background-color: $accent-color-10;
+
+      a {
+        display: none !important;
+      }
+    }
+  }
+
+
+
+
+
+  // modal variations 

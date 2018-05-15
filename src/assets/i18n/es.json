@@ -1,0 +1,37 @@
+{
+  "navigation": {
+    "home": "INICIO",
+    "howToPlay": "CÓMO JUGAR",
+    "competitions": "COMPETICIONES",
+    "createCompetitions": "¡CREA UNA COMPETENCIA!",
+    "multigame": "MULTIGAME",
+    "singleGame": "PARTIDO INDIVIDUAL",
+    "1on1games": "1 EN 1 JUEGOS",
+    "competitionHome": "INICIO DE LA COMPETENCIA",
+    "leaderboard": "LÍDER DE DIRECTOR",
+    "betHistory": "HISTORIA DE APUESTA",
+    "login": "INICIAR SESIÓN",
+    "register": "REGISTRO"
+  },
+   "sports": {
+    "all": "TODAS",
+    "soccer": "FÚTBOL",
+    "rugby": "RUGBY",
+    "tennis": "TENIS",
+    "racing": "CARRERAS",
+    "boxing": "BOXEO",
+    "basketball": "BALONCESTO",
+    "cricket": "GRILLO"
+  },
+   "shared": {
+    "hello": "HOLA",
+    "startingSoon": "COMENZANDO PRONTO",
+    "entry": "ENTRADA",
+    "players": "JUGADORES",
+    "pot": "POT",
+    "enter": "ENTER",
+    "home": "INICIO",
+    "draw": "DIBUJAR",
+    "away": "LEJOS"
+  }
+}

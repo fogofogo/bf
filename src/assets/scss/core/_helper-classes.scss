@@ -1,0 +1,149 @@
+.eli {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.l-case {
+    text-transform: lowercase;
+}
+
+.u-case {
+    text-transform: uppercase;
+}
+
+.c-case {
+    text-transform: capitalize;
+}
+
+.clearfix {
+    overflow: auto;
+
+    &:after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
+}
+
+.mb-25 {
+    margin-bottom: 25px;
+}
+
+
+@media (min-width: 993px) {
+    .show-on-med-and-down {
+        display: none !important;
+    }
+}
+
+
+@media (max-width: 992px) {
+    .hide-on-med-and-down {
+        display: none !important;
+    }
+
+    .show-on-med-and-down {
+        display: block;
+    }
+}
+
+
+//text
+
+.t-s-xs{
+    font-size: .625rem;
+}
+
+.t-s-s{
+    font-size: .875rem;
+}
+
+.t-s-m{
+    font-size: 1rem;
+}
+
+.t-s-l{
+    font-size: 1.125rem;
+}
+
+.t-s-xl{
+    font-size: 	1.25rem;
+}
+
+.t-s-xxl{
+    font-size: 	1.75rem;
+}
+
+.t-c-w {
+    color: $white;
+}
+
+.t-c-g {
+    color: $grey-1;
+}
+
+.t-c-error {
+    color: $red;
+}
+
+.t-c-y {
+    color: $brand-color;
+}
+
+
+.b {
+    font-weight: bold;
+}
+
+
+// flex helpers
+.flex {
+  display: flex;
+} 
+
+.f-j-c {
+  justify-content: space-between;
+}
+
+.m-r-10 {
+    margin-right: 10px;
+}
+
+.m-r-15 {
+    margin-right: 15px;
+}
+
+.m-b-5 {
+    margin-bottom: 5px;
+}
+
+.m-r-5 {
+    margin-bottom: 5px;
+}
+
+.m-b-10 {
+    margin-bottom: 10px;
+}
+
+.m-b-20 {
+    margin-bottom: 20px;
+}
+
+.m-t-5 {
+    margin-top: 5px;
+}
+
+
+
+
+
+

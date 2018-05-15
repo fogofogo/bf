@@ -1,0 +1,36 @@
+.competitions {
+    margin-top: 20px;
+}
+
+
+.sport-filters {
+
+    .col.l10 {
+        overflow-x: auto;
+    }
+}
+
+competition-details {
+    display: block;
+    margin-bottom: 15px;
+}
+
+
+
+@media (min-width: 993px) {
+    .sport-filters {
+
+        .col.l10 {
+            width: calc(100% - 140px);
+        }
+        .col.s2 {
+            width: 140px;
+        }
+    }
+}
+
+@media (max-width: 993px) {
+    .side-promo {
+        display: none;
+    }
+}

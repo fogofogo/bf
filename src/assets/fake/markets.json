@@ -1,0 +1,1506 @@
+[
+  {
+    "id": 567932,
+    "name": "Handicap 0:1",
+    "marketType": 14,
+    "specifiers": "hcp=0:1",
+    "status": "Active",
+    "favourite": 0,
+    "Outcomes": [
+      {
+        "id": 1033997,
+        "name": "Tottenham Hotspur (0:1)",
+        "naturalId": "1711",
+        "odds": "1.1330",
+        "active": true
+      },
+      {
+        "id": 1033998,
+        "name": "draw (0:1)",
+        "naturalId": "1712",
+        "odds": "2.8500",
+        "active": true
+      },
+      {
+        "id": 1033999,
+        "name": "Rochdale AFC (0:1)",
+        "naturalId": "1713",
+        "odds": "3.8000",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": 606992,
+    "name": "Handicap",
+    "marketType": 16,
+    "specifiers": "hcp=-3.25",
+    "status": "Active",
+    "favourite": 0,
+    "Outcomes": [
+      {
+        "id": 1089152,
+        "name": "Tottenham Hotspur (-3.25)",
+        "naturalId": "1714",
+        "odds": "2.8500",
+        "active": true
+      },
+      {
+        "id": 1089153,
+        "name": "Rochdale AFC (3.25)",
+        "naturalId": "1715",
+        "odds": "1.5400",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": 567970,
+    "name": "Correct score [0:0]",
+    "marketType": 41,
+    "specifiers": "score=0:0",
+    "status": "Active",
+    "favourite": 1,
+    "Outcomes": [
+      {
+        "id": 948871,
+        "name": "0.0:0.0",
+        "naturalId": "110",
+        "odds": "23.0000",
+        "active": true
+      },
+      {
+        "id": 948859,
+        "name": "1.0:0.0",
+        "naturalId": "114",
+        "odds": "7.5000",
+        "active": true
+      },
+      {
+        "id": 948860,
+        "name": "2.0:0.0",
+        "naturalId": "116",
+        "odds": "4.8000",
+        "active": true
+      },
+      {
+        "id": 948862,
+        "name": "3.0:0.0",
+        "naturalId": "118",
+        "odds": "4.6000",
+        "active": true
+      },
+      {
+        "id": 948865,
+        "name": "4.0:0.0",
+        "naturalId": "120",
+        "odds": "5.8000",
+        "active": true
+      },
+      {
+        "id": 948868,
+        "name": "5.0:0.0",
+        "naturalId": "122",
+        "odds": "8.5000",
+        "active": true
+      },
+      {
+        "id": 948870,
+        "name": "6.0:0.0",
+        "naturalId": "124",
+        "odds": "16.0000",
+        "active": true
+      },
+      {
+        "id": 948875,
+        "name": "0.0:1.0",
+        "naturalId": "126",
+        "odds": "51.0000",
+        "active": true
+      },
+      {
+        "id": 948872,
+        "name": "1.0:1.0",
+        "naturalId": "128",
+        "odds": "15.0000",
+        "active": true
+      },
+      {
+        "id": 948861,
+        "name": "2.0:1.0",
+        "naturalId": "130",
+        "odds": "9.5000",
+        "active": true
+      },
+      {
+        "id": 948863,
+        "name": "3.0:1.0",
+        "naturalId": "132",
+        "odds": "9.0000",
+        "active": true
+      },
+      {
+        "id": 948866,
+        "name": "4.0:1.0",
+        "naturalId": "134",
+        "odds": "11.0000",
+        "active": true
+      },
+      {
+        "id": 948869,
+        "name": "5.0:1.0",
+        "naturalId": "136",
+        "odds": "17.0000",
+        "active": true
+      },
+      {
+        "id": 948876,
+        "name": "0.0:2.0",
+        "naturalId": "138",
+        "odds": "101.0000",
+        "active": true
+      },
+      {
+        "id": 948877,
+        "name": "1.0:2.0",
+        "naturalId": "140",
+        "odds": "61.0000",
+        "active": true
+      },
+      {
+        "id": 948873,
+        "name": "2.0:2.0",
+        "naturalId": "142",
+        "odds": "41.0000",
+        "active": true
+      },
+      {
+        "id": 948864,
+        "name": "3.0:2.0",
+        "naturalId": "144",
+        "odds": "34.0000",
+        "active": true
+      },
+      {
+        "id": 948867,
+        "name": "4.0:2.0",
+        "naturalId": "146",
+        "odds": "51.0000",
+        "active": true
+      },
+      {
+        "id": 948878,
+        "name": "0.0:3.0",
+        "naturalId": "148",
+        "odds": "101.0000",
+        "active": true
+      },
+      {
+        "id": 948879,
+        "name": "1.0:3.0",
+        "naturalId": "150",
+        "odds": "101.0000",
+        "active": true
+      },
+      {
+        "id": 948880,
+        "name": "2.0:3.0",
+        "naturalId": "152",
+        "odds": "101.0000",
+        "active": true
+      },
+      {
+        "id": 948874,
+        "name": "3.0:3.0",
+        "naturalId": "154",
+        "odds": "101.0000",
+        "active": true
+      },
+      {
+        "id": 948881,
+        "name": "0.0:4.0",
+        "naturalId": "156",
+        "odds": "101.0000",
+        "active": true
+      },
+      {
+        "id": 948882,
+        "name": "1.0:4.0",
+        "naturalId": "158",
+        "odds": "101.0000",
+        "active": true
+      },
+      {
+        "id": 948883,
+        "name": "2.0:4.0",
+        "naturalId": "160",
+        "odds": "101.0000",
+        "active": true
+      },
+      {
+        "id": 948884,
+        "name": "0.0:5.0",
+        "naturalId": "162",
+        "odds": "101.0000",
+        "active": true
+      },
+      {
+        "id": 948885,
+        "name": "1.0:5.0",
+        "naturalId": "164",
+        "odds": "101.0000",
+        "active": true
+      },
+      {
+        "id": 948886,
+        "name": "0.0:6.0",
+        "naturalId": "166",
+        "odds": "101.0000",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": 649626,
+    "name": "Handicap 1:0",
+    "marketType": 14,
+    "specifiers": "hcp=1:0",
+    "status": "Deactivated",
+    "favourite": 0,
+    "Outcomes": [
+      
+    ]
+  },
+  {
+    "id": 649632,
+    "name": "Total",
+    "marketType": 18,
+    "specifiers": "total=0.5",
+    "status": "Deactivated",
+    "favourite": 0,
+    "Outcomes": [
+      
+    ]
+  },
+  {
+    "id": 649639,
+    "name": "Total",
+    "marketType": 18,
+    "specifiers": "total=2.75",
+    "status": "Deactivated",
+    "favourite": 0,
+    "Outcomes": [
+      
+    ]
+  },
+  {
+    "id": 567943,
+    "name": "Total",
+    "marketType": 18,
+    "specifiers": "total=3.75",
+    "status": "Active",
+    "favourite": 0,
+    "Outcomes": [
+      {
+        "id": 948752,
+        "name": "over 3.75",
+        "naturalId": "12",
+        "odds": "1.4200",
+        "active": true
+      },
+      {
+        "id": 948753,
+        "name": "under 3.75",
+        "naturalId": "13",
+        "odds": "1.2600",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": 567944,
+    "name": "2nd half - total",
+    "marketType": 90,
+    "specifiers": "total=2",
+    "status": "Active",
+    "favourite": 0,
+    "Outcomes": [
+      {
+        "id": 1034024,
+        "name": "over 2",
+        "naturalId": "12",
+        "odds": "1.4000",
+        "active": true
+      },
+      {
+        "id": 1034025,
+        "name": "under 2",
+        "naturalId": "13",
+        "odds": "1.2860",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": 567945,
+    "name": "2nd half - total",
+    "marketType": 90,
+    "specifiers": "total=0.5",
+    "status": "Active",
+    "favourite": 0,
+    "Outcomes": [
+      {
+        "id": 1034026,
+        "name": "over 0.5",
+        "naturalId": "12",
+        "odds": "1.0200",
+        "active": true
+      },
+      {
+        "id": 1034027,
+        "name": "under 0.5",
+        "naturalId": "13",
+        "odds": "1.9200",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": 567946,
+    "name": "2nd half - total",
+    "marketType": 90,
+    "specifiers": "total=1.5",
+    "status": "Active",
+    "favourite": 0,
+    "Outcomes": [
+      {
+        "id": 1034028,
+        "name": "over 1.5",
+        "naturalId": "12",
+        "odds": "1.2000",
+        "active": true
+      },
+      {
+        "id": 1034029,
+        "name": "under 1.5",
+        "naturalId": "13",
+        "odds": "1.4800",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": 649644,
+    "name": "2nd half - total",
+    "marketType": 90,
+    "specifiers": "total=2.25",
+    "status": "Deactivated",
+    "favourite": 0,
+    "Outcomes": [
+      
+    ]
+  },
+  {
+    "id": 567947,
+    "name": "2nd half - total",
+    "marketType": 90,
+    "specifiers": "total=2.5",
+    "status": "Active",
+    "favourite": 0,
+    "Outcomes": [
+      {
+        "id": 1034030,
+        "name": "over 2.5",
+        "naturalId": "12",
+        "odds": "1.6000",
+        "active": true
+      },
+      {
+        "id": 1034031,
+        "name": "under 2.5",
+        "naturalId": "13",
+        "odds": "1.1430",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": 567948,
+    "name": "2nd half - total",
+    "marketType": 90,
+    "specifiers": "total=1.75",
+    "status": "Active",
+    "favourite": 1,
+    "Outcomes": [
+      {
+        "id": 948770,
+        "name": "over 1.75",
+        "naturalId": "12",
+        "odds": "1.2860",
+        "active": true
+      },
+      {
+        "id": 948771,
+        "name": "under 1.75",
+        "naturalId": "13",
+        "odds": "1.3800",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": 567949,
+    "name": "first goal",
+    "marketType": 8,
+    "specifiers": "goalnr=1",
+    "status": "Active",
+    "favourite": 1,
+    "Outcomes": [
+      {
+        "id": 948781,
+        "name": "Tottenham Hotspur",
+        "naturalId": "6",
+        "odds": "1.0400",
+        "active": true
+      },
+      {
+        "id": 948780,
+        "name": "none",
+        "naturalId": "7",
+        "odds": "8.5000",
+        "active": true
+      },
+      {
+        "id": 948782,
+        "name": "Rochdale AFC",
+        "naturalId": "8",
+        "odds": "2.3750",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": 567950,
+    "name": "1st half - 1x2",
+    "marketType": 60,
+    "specifiers": "",
+    "status": "Active",
+    "favourite": 0,
+    "Outcomes": [
+      {
+        "id": 948783,
+        "name": "Tottenham Hotspur",
+        "naturalId": "1",
+        "odds": "1.1540",
+        "active": true
+      },
+      {
+        "id": 948784,
+        "name": "draw",
+        "naturalId": "2",
+        "odds": "2.0000",
+        "active": true
+      },
+      {
+        "id": 948785,
+        "name": "Rochdale AFC",
+        "naturalId": "3",
+        "odds": "7.0000",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": 567951,
+    "name": "Both teams to score",
+    "marketType": 29,
+    "specifiers": "",
+    "status": "Active",
+    "favourite": 0,
+    "Outcomes": [
+      {
+        "id": 948786,
+        "name": "yes",
+        "naturalId": "74",
+        "odds": "1.5330",
+        "active": true
+      },
+      {
+        "id": 948787,
+        "name": "no",
+        "naturalId": "76",
+        "odds": "1.1820",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": 567952,
+    "name": "Correct score",
+    "marketType": 45,
+    "specifiers": "",
+    "status": "Active",
+    "favourite": 0,
+    "Outcomes": [
+      {
+        "id": 948797,
+        "name": "0:0",
+        "naturalId": "274",
+        "odds": "26.0000",
+        "active": true
+      },
+      {
+        "id": 948788,
+        "name": "1:0",
+        "naturalId": "276",
+        "odds": "8.0000",
+        "active": true
+      },
+      {
+        "id": 948789,
+        "name": "2:0",
+        "naturalId": "278",
+        "odds": "5.2000",
+        "active": true
+      },
+      {
+        "id": 948791,
+        "name": "3:0",
+        "naturalId": "280",
+        "odds": "5.0000",
+        "active": true
+      },
+      {
+        "id": 948794,
+        "name": "4:0",
+        "naturalId": "282",
+        "odds": "6.0000",
+        "active": true
+      },
+      {
+        "id": 948801,
+        "name": "0:1",
+        "naturalId": "284",
+        "odds": "51.0000",
+        "active": true
+      },
+      {
+        "id": 948798,
+        "name": "1:1",
+        "naturalId": "286",
+        "odds": "16.0000",
+        "active": true
+      },
+      {
+        "id": 948790,
+        "name": "2:1",
+        "naturalId": "288",
+        "odds": "10.0000",
+        "active": true
+      },
+      {
+        "id": 948792,
+        "name": "3:1",
+        "naturalId": "290",
+        "odds": "10.0000",
+        "active": true
+      },
+      {
+        "id": 948795,
+        "name": "4:1",
+        "naturalId": "292",
+        "odds": "12.0000",
+        "active": true
+      },
+      {
+        "id": 948802,
+        "name": "0:2",
+        "naturalId": "294",
+        "odds": "101.0000",
+        "active": true
+      },
+      {
+        "id": 948803,
+        "name": "1:2",
+        "naturalId": "296",
+        "odds": "67.0000",
+        "active": true
+      },
+      {
+        "id": 948799,
+        "name": "2:2",
+        "naturalId": "298",
+        "odds": "41.0000",
+        "active": true
+      },
+      {
+        "id": 948793,
+        "name": "3:2",
+        "naturalId": "300",
+        "odds": "41.0000",
+        "active": true
+      },
+      {
+        "id": 948796,
+        "name": "4:2",
+        "naturalId": "302",
+        "odds": "51.0000",
+        "active": true
+      },
+      {
+        "id": 948804,
+        "name": "0:3",
+        "naturalId": "304",
+        "odds": "101.0000",
+        "active": true
+      },
+      {
+        "id": 948805,
+        "name": "1:3",
+        "naturalId": "306",
+        "odds": "101.0000",
+        "active": true
+      },
+      {
+        "id": 948806,
+        "name": "2:3",
+        "naturalId": "308",
+        "odds": "101.0000",
+        "active": true
+      },
+      {
+        "id": 948800,
+        "name": "3:3",
+        "naturalId": "310",
+        "odds": "101.0000",
+        "active": true
+      },
+      {
+        "id": 948811,
+        "name": "4:3",
+        "naturalId": "312",
+        "odds": "101.0000",
+        "active": true
+      },
+      {
+        "id": 948807,
+        "name": "0:4",
+        "naturalId": "314",
+        "odds": "101.0000",
+        "active": true
+      },
+      {
+        "id": 948808,
+        "name": "1:4",
+        "naturalId": "316",
+        "odds": "101.0000",
+        "active": true
+      },
+      {
+        "id": 948809,
+        "name": "2:4",
+        "naturalId": "318",
+        "odds": "101.0000",
+        "active": true
+      },
+      {
+        "id": 948810,
+        "name": "3:4",
+        "naturalId": "320",
+        "odds": "101.0000",
+        "active": true
+      },
+      {
+        "id": 948812,
+        "name": "4:4",
+        "naturalId": "322",
+        "odds": "101.0000",
+        "active": true
+      },
+      {
+        "id": 948813,
+        "name": "other",
+        "naturalId": "324",
+        "odds": "3.2500",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": 567953,
+    "name": "Halftime/fulltime",
+    "marketType": 47,
+    "specifiers": "",
+    "status": "Active",
+    "favourite": 0,
+    "Outcomes": [
+      {
+        "id": 948814,
+        "name": "Tottenham Hotspur/Tottenham Hotspur",
+        "naturalId": "418",
+        "odds": "1.2220",
+        "active": true
+      },
+      {
+        "id": 948817,
+        "name": "Tottenham Hotspur/draw",
+        "naturalId": "420",
+        "odds": "17.0000",
+        "active": true
+      },
+      {
+        "id": 948820,
+        "name": "Tottenham Hotspur/Rochdale AFC",
+        "naturalId": "422",
+        "odds": "81.0000",
+        "active": true
+      },
+      {
+        "id": 948815,
+        "name": "draw/Tottenham Hotspur",
+        "naturalId": "424",
+        "odds": "2.7000",
+        "active": true
+      },
+      {
+        "id": 948818,
+        "name": "draw/draw",
+        "naturalId": "426",
+        "odds": "11.0000",
+        "active": true
+      },
+      {
+        "id": 948821,
+        "name": "draw/Rochdale AFC",
+        "naturalId": "428",
+        "odds": "34.0000",
+        "active": true
+      },
+      {
+        "id": 948816,
+        "name": "Rochdale AFC/Tottenham Hotspur",
+        "naturalId": "430",
+        "odds": "17.0000",
+        "active": true
+      },
+      {
+        "id": 948819,
+        "name": "Rochdale AFC/draw",
+        "naturalId": "432",
+        "odds": "29.0000",
+        "active": true
+      },
+      {
+        "id": 948822,
+        "name": "Rochdale AFC/Rochdale AFC",
+        "naturalId": "434",
+        "odds": "34.0000",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": 567954,
+    "name": "Odd/even",
+    "marketType": 26,
+    "specifiers": "",
+    "status": "Active",
+    "favourite": 0,
+    "Outcomes": [
+      {
+        "id": 948823,
+        "name": "odd",
+        "naturalId": "70",
+        "odds": "1.3330",
+        "active": true
+      },
+      {
+        "id": 948824,
+        "name": "even",
+        "naturalId": "72",
+        "odds": "1.3330",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": 567955,
+    "name": "Double chance",
+    "marketType": 10,
+    "specifiers": "",
+    "status": "Active",
+    "favourite": 0,
+    "Outcomes": [
+      {
+        "id": 948826,
+        "name": "Tottenham Hotspur or Rochdale AFC",
+        "naturalId": "10",
+        "odds": "1.0910",
+        "active": true
+      },
+      {
+        "id": 948827,
+        "name": "draw or Rochdale AFC",
+        "naturalId": "11",
+        "odds": "9.0000",
+        "active": true
+      },
+      {
+        "id": 948825,
+        "name": "Tottenham Hotspur or draw",
+        "naturalId": "9",
+        "odds": "1.0300",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": 567956,
+    "name": "1x2",
+    "marketType": 1,
+    "specifiers": "",
+    "status": "Active",
+    "favourite": 0,
+    "Outcomes": [
+      {
+        "id": 948828,
+        "name": "Tottenham Hotspur",
+        "naturalId": "1",
+        "odds": "1.0500",
+        "active": true
+      },
+      {
+        "id": 948829,
+        "name": "draw",
+        "naturalId": "2",
+        "odds": "5.6000",
+        "active": true
+      },
+      {
+        "id": 948830,
+        "name": "Rochdale AFC",
+        "naturalId": "3",
+        "odds": "15.0000",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": 567933,
+    "name": "Handicap 0:2",
+    "marketType": 14,
+    "specifiers": "hcp=0:2",
+    "status": "Active",
+    "favourite": 1,
+    "Outcomes": [
+      {
+        "id": 948743,
+        "name": "Tottenham Hotspur (0:2)",
+        "naturalId": "1711",
+        "odds": "1.4440",
+        "active": true
+      },
+      {
+        "id": 948744,
+        "name": "draw (0:2)",
+        "naturalId": "1712",
+        "odds": "2.7500",
+        "active": true
+      },
+      {
+        "id": 948745,
+        "name": "Rochdale AFC (0:2)",
+        "naturalId": "1713",
+        "odds": "2.2500",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": 567934,
+    "name": "2nd half - 1x2",
+    "marketType": 83,
+    "specifiers": "",
+    "status": "Active",
+    "favourite": 0,
+    "Outcomes": [
+      {
+        "id": 948749,
+        "name": "Tottenham Hotspur",
+        "naturalId": "1",
+        "odds": "1.1000",
+        "active": true
+      },
+      {
+        "id": 948750,
+        "name": "draw",
+        "naturalId": "2",
+        "odds": "2.2500",
+        "active": true
+      },
+      {
+        "id": 948751,
+        "name": "Rochdale AFC",
+        "naturalId": "3",
+        "odds": "6.8000",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": 567935,
+    "name": "Total",
+    "marketType": 18,
+    "specifiers": "total=3",
+    "status": "Active",
+    "favourite": 0,
+    "Outcomes": [
+      {
+        "id": 1034006,
+        "name": "over 3",
+        "naturalId": "12",
+        "odds": "1.1820",
+        "active": true
+      },
+      {
+        "id": 1034007,
+        "name": "under 3",
+        "naturalId": "13",
+        "odds": "1.5330",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": 567936,
+    "name": "Total",
+    "marketType": 18,
+    "specifiers": "total=4",
+    "status": "Active",
+    "favourite": 0,
+    "Outcomes": [
+      {
+        "id": 1034008,
+        "name": "over 4",
+        "naturalId": "12",
+        "odds": "1.5200",
+        "active": true
+      },
+      {
+        "id": 1034009,
+        "name": "under 4",
+        "naturalId": "13",
+        "odds": "1.2000",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": 567937,
+    "name": "Total",
+    "marketType": 18,
+    "specifiers": "total=1.5",
+    "status": "Active",
+    "favourite": 0,
+    "Outcomes": [
+      {
+        "id": 1034010,
+        "name": "over 1.5",
+        "naturalId": "12",
+        "odds": "1.0150",
+        "active": true
+      },
+      {
+        "id": 1034011,
+        "name": "under 1.5",
+        "naturalId": "13",
+        "odds": "1.9400",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": 567938,
+    "name": "Total",
+    "marketType": 18,
+    "specifiers": "total=2.5",
+    "status": "Active",
+    "favourite": 0,
+    "Outcomes": [
+      {
+        "id": 1034012,
+        "name": "over 2.5",
+        "naturalId": "12",
+        "odds": "1.1110",
+        "active": true
+      },
+      {
+        "id": 1034013,
+        "name": "under 2.5",
+        "naturalId": "13",
+        "odds": "1.6670",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": 567939,
+    "name": "Total",
+    "marketType": 18,
+    "specifiers": "total=3.25",
+    "status": "Active",
+    "favourite": 0,
+    "Outcomes": [
+      {
+        "id": 1034014,
+        "name": "over 3.25",
+        "naturalId": "12",
+        "odds": "1.2600",
+        "active": true
+      },
+      {
+        "id": 1034015,
+        "name": "under 3.25",
+        "naturalId": "13",
+        "odds": "1.4200",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": 567940,
+    "name": "Total",
+    "marketType": 18,
+    "specifiers": "total=3.5",
+    "status": "Active",
+    "favourite": 1,
+    "Outcomes": [
+      {
+        "id": 1034016,
+        "name": "over 3.5",
+        "naturalId": "12",
+        "odds": "1.3330",
+        "active": true
+      },
+      {
+        "id": 1034017,
+        "name": "under 3.5",
+        "naturalId": "13",
+        "odds": "1.3330",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": 567941,
+    "name": "Total",
+    "marketType": 18,
+    "specifiers": "total=4.5",
+    "status": "Active",
+    "favourite": 0,
+    "Outcomes": [
+      {
+        "id": 1034018,
+        "name": "over 4.5",
+        "naturalId": "12",
+        "odds": "1.6400",
+        "active": true
+      },
+      {
+        "id": 1034019,
+        "name": "under 4.5",
+        "naturalId": "13",
+        "odds": "1.1250",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": 567942,
+    "name": "Total",
+    "marketType": 18,
+    "specifiers": "total=5.5",
+    "status": "Active",
+    "favourite": 0,
+    "Outcomes": [
+      {
+        "id": 1034020,
+        "name": "over 5.5",
+        "naturalId": "12",
+        "odds": "1.8800",
+        "active": true
+      },
+      {
+        "id": 1034021,
+        "name": "under 5.5",
+        "naturalId": "13",
+        "odds": "1.0330",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": 567971,
+    "name": "Which team to score",
+    "marketType": 30,
+    "specifiers": "",
+    "status": "Active",
+    "favourite": 0,
+    "Outcomes": [
+      {
+        "id": 948887,
+        "name": "none",
+        "naturalId": "784",
+        "odds": "6.0000",
+        "active": true
+      },
+      {
+        "id": 948888,
+        "name": "only Tottenham Hotspur",
+        "naturalId": "788",
+        "odds": "1.0910",
+        "active": true
+      },
+      {
+        "id": 948889,
+        "name": "only Rochdale AFC",
+        "naturalId": "790",
+        "odds": "9.5000",
+        "active": true
+      },
+      {
+        "id": 948890,
+        "name": "both teams",
+        "naturalId": "792",
+        "odds": "1.2220",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": 567960,
+    "name": "Handicap",
+    "marketType": 16,
+    "specifiers": "hcp=-3",
+    "status": "Active",
+    "favourite": 0,
+    "Outcomes": [
+      {
+        "id": 1034093,
+        "name": "Tottenham Hotspur (-3.0)",
+        "naturalId": "1714",
+        "odds": "2.5500",
+        "active": true
+      },
+      {
+        "id": 1034094,
+        "name": "Rochdale AFC (3.0)",
+        "naturalId": "1715",
+        "odds": "1.6500",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": 567961,
+    "name": "Handicap",
+    "marketType": 16,
+    "specifiers": "hcp=-2.75",
+    "status": "Active",
+    "favourite": 0,
+    "Outcomes": [
+      {
+        "id": 1034095,
+        "name": "Tottenham Hotspur (-2.75)",
+        "naturalId": "1714",
+        "odds": "2.1500",
+        "active": true
+      },
+      {
+        "id": 1034096,
+        "name": "Rochdale AFC (2.75)",
+        "naturalId": "1715",
+        "odds": "1.8600",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": 567962,
+    "name": "Handicap",
+    "marketType": 16,
+    "specifiers": "hcp=-2.5",
+    "status": "Active",
+    "favourite": 1,
+    "Outcomes": [
+      {
+        "id": 1034097,
+        "name": "Tottenham Hotspur (-2.5)",
+        "naturalId": "1714",
+        "odds": "1.9400",
+        "active": true
+      },
+      {
+        "id": 1034098,
+        "name": "Rochdale AFC (2.5)",
+        "naturalId": "1715",
+        "odds": "2.0500",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": 567963,
+    "name": "Handicap",
+    "marketType": 16,
+    "specifiers": "hcp=-2.25",
+    "status": "Active",
+    "favourite": 0,
+    "Outcomes": [
+      {
+        "id": 948837,
+        "name": "Tottenham Hotspur (-2.25)",
+        "naturalId": "1714",
+        "odds": "1.7270",
+        "active": true
+      },
+      {
+        "id": 948838,
+        "name": "Rochdale AFC (2.25)",
+        "naturalId": "1715",
+        "odds": "2.3750",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": 567957,
+    "name": "Tottenham Hotspur exact goals",
+    "marketType": 23,
+    "specifiers": "variant=sr:exact_goals:3+",
+    "status": "Active",
+    "favourite": 1,
+    "Outcomes": [
+      {
+        "id": 948831,
+        "name": "0",
+        "naturalId": "sr:exact_goals:3+:88",
+        "odds": "11.0000",
+        "active": true
+      },
+      {
+        "id": 948832,
+        "name": "1",
+        "naturalId": "sr:exact_goals:3+:89",
+        "odds": "3.9000",
+        "active": true
+      },
+      {
+        "id": 948833,
+        "name": "2",
+        "naturalId": "sr:exact_goals:3+:90",
+        "odds": "2.6500",
+        "active": true
+      },
+      {
+        "id": 948834,
+        "name": "3+",
+        "naturalId": "sr:exact_goals:3+:91",
+        "odds": "1.2860",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": 567958,
+    "name": "Rochdale AFC total",
+    "marketType": 20,
+    "specifiers": "total=0.5",
+    "status": "Active",
+    "favourite": 1,
+    "Outcomes": [
+      {
+        "id": 948835,
+        "name": "over 0.5",
+        "naturalId": "12",
+        "odds": "1.5000",
+        "active": true
+      },
+      {
+        "id": 948836,
+        "name": "under 0.5",
+        "naturalId": "13",
+        "odds": "1.2000",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": 567959,
+    "name": "Handicap",
+    "marketType": 16,
+    "specifiers": "hcp=-2",
+    "status": "Deactivated",
+    "favourite": 0,
+    "Outcomes": [
+      {
+        "id": 1034091,
+        "name": "Tottenham Hotspur (-2.0)",
+        "naturalId": "1714",
+        "odds": "1.5600",
+        "active": true
+      },
+      {
+        "id": 1034092,
+        "name": "Rochdale AFC (2.0)",
+        "naturalId": "1715",
+        "odds": "2.8000",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": 567964,
+    "name": "Tottenham Hotspur total",
+    "marketType": 19,
+    "specifiers": "total=3.5",
+    "status": "Active",
+    "favourite": 1,
+    "Outcomes": [
+      {
+        "id": 948847,
+        "name": "over 3.5",
+        "naturalId": "12",
+        "odds": "1.4800",
+        "active": true
+      },
+      {
+        "id": 948848,
+        "name": "under 3.5",
+        "naturalId": "13",
+        "odds": "1.2000",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": 567965,
+    "name": "1st half - total",
+    "marketType": 68,
+    "specifiers": "total=1.25",
+    "status": "Active",
+    "favourite": 0,
+    "Outcomes": [
+      {
+        "id": 1034103,
+        "name": "over 1.25",
+        "naturalId": "12",
+        "odds": "1.2400",
+        "active": true
+      },
+      {
+        "id": 1034104,
+        "name": "under 1.25",
+        "naturalId": "13",
+        "odds": "1.4440",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": 567966,
+    "name": "1st half - total",
+    "marketType": 68,
+    "specifiers": "total=0.5",
+    "status": "Active",
+    "favourite": 0,
+    "Outcomes": [
+      {
+        "id": 1034105,
+        "name": "over 0.5",
+        "naturalId": "12",
+        "odds": "1.0500",
+        "active": true
+      },
+      {
+        "id": 1034106,
+        "name": "under 0.5",
+        "naturalId": "13",
+        "odds": "1.8330",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": 567967,
+    "name": "1st half - total",
+    "marketType": 68,
+    "specifiers": "total=1.5",
+    "status": "Active",
+    "favourite": 1,
+    "Outcomes": [
+      {
+        "id": 1034107,
+        "name": "over 1.5",
+        "naturalId": "12",
+        "odds": "1.3500",
+        "active": true
+      },
+      {
+        "id": 1034108,
+        "name": "under 1.5",
+        "naturalId": "13",
+        "odds": "1.3200",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": 567968,
+    "name": "1st half - total",
+    "marketType": 68,
+    "specifiers": "total=2.5",
+    "status": "Active",
+    "favourite": 0,
+    "Outcomes": [
+      {
+        "id": 1034109,
+        "name": "over 2.5",
+        "naturalId": "12",
+        "odds": "1.7800",
+        "active": true
+      },
+      {
+        "id": 1034110,
+        "name": "under 2.5",
+        "naturalId": "13",
+        "odds": "1.0710",
+        "active": true
+      }
+    ]
+  },
+  {
+    "id": 567969,
+    "name": "1st half - total",
+    "marketType": 68,
+    "specifiers": "total=1.75",
+    "status": "Active",
+    "favourite": 0,
+    "Outcomes": [
+      {
+        "id": 948849,
+        "name": "over 1.75",
+        "naturalId": "12",
+        "odds": "1.4600",
+        "active": true
+      },
+      {
+        "id": 948850,
+        "name": "under 1.75",
+        "naturalId": "13",
+        "odds": "1.2220",
+        "active": true
+      }
+    ]
+  }
+]

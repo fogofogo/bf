@@ -1,0 +1,75 @@
+@import "../../assets/scss/core/_variables";
+.competition-event {
+    margin-top: 20px;
+}
+
+.markets-container {
+    display: flex;
+    justify-content: space-around;
+    background: $white;
+    padding: 20px;
+}
+
+.outcome{
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 0;
+    justify-content: space-between;
+    border: solid 1px $grey;
+    box-shadow: 0 1px 0 0 $bet-grey--lighter;
+    transition: all 0.2s ease;
+    padding: 7px;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: .75em;
+    margin-right: 10px;
+    &:hover {
+        box-shadow: 0 3px 0 0 $bet-grey--lighter;
+        border-color: $bet-grey--lighter;
+        transform: translateY(-3px);
+    }
+    .market-odd {
+        align-self: flex-start;
+        font-weight: bold;
+        float: right;
+    }
+    &:last-child {
+        margin-right: 0px;;
+    }
+    &.selected-bet {
+        background: $brand-color;
+    }
+}
+
+.market {
+    box-shadow: inset 0px 3px 5px 0px rgba(102, 102, 102, 0.15);
+    background-color: $grey;
+    border-bottom: 1px solid $bet-grey--lighter;
+    &.row {
+        margin: 0
+    }
+    .title {
+        font-size: .8em;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 8px 0px;
+        padding-left: 15px;
+        color: $accent-color;
+    }
+    .market-title {
+        font-size: .6em;
+        text-transform: uppercase;
+        text-align: center;
+        padding: 10px 0px;
+    }
+} // market
+.markets {
+    background-color: $widget-box-color-dark;
+    display: block;
+    .market-title {
+        color: $white;
+        margin: 15px 9px;
+        font-size: 1em;
+        text-transform: uppercase;
+    }
+}

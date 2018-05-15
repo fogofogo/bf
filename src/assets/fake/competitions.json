@@ -1,0 +1,103 @@
+[
+  {
+    "userJoined": true,
+    "buyInPrice": 5.0,
+    "competitionEnd": "0001-01-01T00:00:00Z",
+    "competitionEndDate": "1/1/0001",
+    "competitionEndTime": "12:00 AM",
+    "competitionId": "59bad73e30ea590b0caf493b",
+    "competitionName": "Rugger weekend john",
+    "competitionStart": "2017-11-20T02:35:00Z",
+    "competitionStartDate": "9/16/2017",
+    "competitionStartTime": "2:35 AM",
+    "competitionState": "Unpublished",
+    "competitionSummary": "this is the description for rugby",
+    "created": "2017-09-14T19:23:42.125Z",
+    "currencySymbol": "£",
+    "fixtureCount": 18,
+    "image": null,
+    "isFreePlay": false,
+    "lastUpdated": "2017-09-14T19:23:42.128Z",
+    "playerCount": 54,
+    "potTotal": 780,
+    "sports": [
+      "rugby"
+    ]
+  },
+  {
+    "userJoined": false,
+    "buyInPrice": 10.0,
+    "competitionEnd": "0001-01-01T00:00:00Z",
+    "competitionEndDate": "1/1/0001",
+    "competitionEndTime": "12:00 AM",
+    "competitionId": "59bad77930ea590b0caf493c",
+    "competitionName": "Football only",
+    "competitionStart": "2017-11-22T02:35:00Z",
+    "competitionStartDate": "9/16/2017",
+    "competitionStartTime": "11:30 AM",
+    "competitionState": "Unpublished",
+    "competitionSummary": "Football is a load of BS",
+    "created": "2017-09-14T19:24:41.305Z",
+    "currencySymbol": "£",
+    "fixtureCount": 40,
+    "image": null,
+    "isFreePlay": false,
+    "lastUpdated": "2017-09-14T19:24:41.305Z",
+    "playerCount": 345,
+    "potTotal": 540,
+    "sports": [
+      "soccer"
+    ]
+  },
+  {
+    "userEntered": false,
+    "buyInPrice": 21.0,
+    "competitionEnd": "0001-01-01T00:00:00Z",
+    "competitionEndDate": "1/1/0001",
+    "competitionEndTime": "12:00 AM",
+    "competitionId": "59bad7b930ea590b0caf493d",
+    "competitionName": "sport mixture",
+    "competitionStart": "2017-12-16T02:35:00Z",
+    "competitionStartDate": "9/16/2017",
+    "competitionStartTime": "9:40 AM",
+    "competitionState": "Unpublished",
+    "competitionSummary": "A nice mix of sports here",
+    "created": "2017-09-14T19:25:45.756Z",
+    "currencySymbol": "£",
+    "fixtureCount": 54,
+    "image": null,
+    "isFreePlay": false,
+    "lastUpdated": "2017-09-14T19:25:45.757Z",
+    "playerCount": 234,
+    "potTotal": 970,
+    "sports": [
+      "soccer",
+      "rugby"
+    ]
+  },
+  {
+    "userEntered": false,
+    "buyInPrice": 2.0,
+    "competitionEnd": "2017-11-19T16:46:01.779Z",
+    "competitionEndDate": "7/17/2017",
+    "competitionEndTime": "4:46 PM",
+    "competitionId": "12",
+    "competitionName": "Another rugby competitions here",
+    "competitionStart": "2017-11-23T02:35:00Z",
+    "competitionStartDate": "9/17/2017",
+    "competitionStartTime": "7:08 PM",
+    "competitionState": "Unpublished",
+    "competitionSummary": "Another fantastic rugby competition",
+    "created": "2017-09-16T11:14:12.828Z",
+    "currencySymbol": "£",
+    "fixtureCount": 1,
+    "image": null,
+    "isFreePlay": true,
+    "lastUpdated": "2017-09-16T11:14:12.828Z",
+    "playerCount": 65,
+    "potTotal": 765,
+    "sports": [
+     "rugby"
+    ]
+  }
+]

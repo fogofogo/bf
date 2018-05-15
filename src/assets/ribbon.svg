@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="114" height="146" viewBox="0 0 114 146">
+   <title>ribbon</title>
+   <defs>
+      <path id="a" d="M0 149V8.541L9 0l12 11.389L33 0l12 11.389L57 0l12 11.389L81 0l12 11.389L105 0l9 8.541V149z" />
+   </defs>
+   <g fill="none" fill-rule="evenodd">
+      <use fill="#ebbd05" xlink:href="#a" />
+      <path stroke="#ebbd05" stroke-width="2" d="M1 148V8.971l8-7.592 11.312 10.735.688.653.688-.653L33 1.379l11.312 10.735.688.653.688-.653L57 1.379l11.312 10.735.688.653.688-.653L81 1.379l11.312 10.735.688.653.688-.653L105 1.379l8 7.592V148H1z" />
+   </g>
+</svg>

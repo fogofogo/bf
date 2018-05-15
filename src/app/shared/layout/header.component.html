@@ -1,0 +1,76 @@
+<header class="header">
+    <div class="container">
+        <button 
+            class="menuToggle show-on-med-and-down" 
+            (click)="isMobileMenuOpen = true">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+
+        <h1 class="logo"> <span class="bet">bet</span><span class="fresh">friends</span> </h1>
+
+        <ul class="nav" [class.isOpen]="isMobileMenuOpen">
+            <li class="closeMenu show-on-med-and-down"><a href="#" (click)="isMobileMenuOpen = false"> 
+                <i class="icon-left"></i> BACK
+            </a></li>
+            <li><a rrouterLinkActive="active"> 
+                <i class="icon-home-outline show-on-med-and-down"></i> <span>{{ 'navigation.home' | translate }}</span>
+            </a></li>
+            <li><a (click)="changeRoute('competitions')" routerLinkActive="active">
+                <i class="icon-award show-on-med-and-down"></i> <span>{{ 'navigation.competitions' | translate }}</span>
+            </a></li>
+            <li class="login"><a (click)="changeRoute('login')" routerLinkActive="active" *showAuthed="false">
+                <i class="icon-login show-on-med-and-down"></i> <span>{{ 'navigation.login' | translate   }}</span>
+            </a></li>
+            <li class="register"><a (click)="changeRoute('register')" routerLinkActive="active" *showAuthed="false">
+                <i class="icon-user show-on-med-and-down"></i> <span>{{ 'navigation.register' | translate   }}</span>
+            </a></li>
+            <li class="logout"><a (click)="logout()" routerLinkActive="active"  *showAuthed="true">
+                <i class="icon-logout"></i> <span>{{ 'navigation.logout' | translate   }}</span>
+            </a></li>
+        </ul>
+
+        <div 
+            [class.isActive]="isMobileMenuOpen" 
+            (click)="isMobileMenuOpen = false">
+        </div>
+
+
+        <div class="user" *showAuthed="true">
+
+            <div class="dropdown notifications" [ngClass]="{'unreadNotification': unreadNotifications}" dropdown [dropdownToggle]="false"
+                (onClose)="onNotificationClose()">
+               
+                <a class="notification-icon" dropdown-open>
+                    <span class="notification-bubble">{{unreadNotifications}}</span>
+                    <i class="icon icon-bell-alt has-text-grey-lighter"></i>
+                </a>
+                <div class="dropdown-menu card">
+                     <div class="arrow-up"></div>
+                    <ng-container *ngFor="let notification of notifications">
+                        <message class="notification-container-outer" [notification]="notification"></message>
+                    </ng-container>
+                    <div class="show-all"><a routerLink="profile/notifications" >SHOW ALL</a></div>
+                </div>
+            </div>
+
+            <div class="user-details">
+                <div class="hide-on-med-and-down">
+                    Hey 
+                    <a class="profile-name" routerLink="profile">{{ currentUser?.alias }}</a>
+                </div>
+                <a class="view-profile" routerLink="profile">
+                    <span class="hide-on-med-and-down">view profile</span>
+                    <i class="icon-user has-text-grey-lighter show-on-med-and-down"></i>
+                </a>
+            </div>
+
+            <div class="user-balance hide-on-med-and-down">
+                <div>£{{ currentUser?.balance }}</div>
+                <span class="balance">Balance</span>
+            </div>
+
+        </div>
+    </div>
+</header>

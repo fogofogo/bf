@@ -1,0 +1,21 @@
+.contacts,
+.address {
+    margin-top: 10px;
+    position: relative;
+}
+
+.btn-edit {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: inherit;
+}
+
+.contacts {
+    margin-bottom: 30px
+}
+
+.actions {
+    margin-top: 10px;
+    display: flex;
+}

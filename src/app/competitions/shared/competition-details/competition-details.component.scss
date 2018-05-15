@@ -1,0 +1,238 @@
+@import "../../../../assets/scss/core/_variables";
+.competition-details {
+    background: $widget-box-color-dark;
+    min-height: 107px;
+    height: auto;
+    position: relative;
+    padding-left: 100px;
+    overflow: inherit;
+}
+
+.hide-entry-price {
+    padding-left: 0px;
+}
+
+.entry-price {
+    background: $attention-color;
+    width: 80px;
+    height: 95px;
+    padding-top: 10px;
+    position: absolute;
+    left: 10px;
+    top: -5px;
+    display: flex;
+    flex-direction: column;
+    &:after {
+        border-bottom: 16px solid $accent-color;
+        content: "";
+        position: absolute;
+        left: -1px;
+        bottom: -1px;
+        width: 0;
+        height: 0;
+        border-left: 42px solid transparent;
+        border-right: 42px solid transparent;
+    }
+}
+
+.price,
+.entry {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.price {
+    font-size: 1.8em;
+}
+
+.competition-actions {
+    display: flex;
+    a {
+        flex-grow: 1;
+        flex-basis: 0;
+    }
+}
+
+.competiton-statistics {
+    margin: 10px 0;
+    display: flex;
+    .stat {
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.44);
+        background: $accent-color-10;
+        width: 33%;
+        text-transform: uppercase;
+        position: relative;
+        padding: 0px 10px 5px 14px;
+        text-align: center;
+        &:not(:last-child) {
+            margin-right: 0;
+        }
+        span:first-of-type {
+            text-align: left;
+            padding-top: 3px;
+        }
+        h3 {
+            display: inline-block;
+            line-height: 25px;
+        }
+    }
+    .icon {
+        display: inline-block;
+        font-size: 1.2rem;
+        opacity: 0.5;
+
+    }
+}
+
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+.your-balance {
+    background-color: $accent-color-10;
+    padding: 3px 15px;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 993px) {
+    .competiton-statistics .stat {
+        padding: 0 10px 5px;
+        h3,
+        .icon {
+            font-size: 0.9rem;
+        }
+    }
+}
+
+@media (min-width: 1365px) {
+    .competiton-statistics .stat {
+        h3,
+        .icon {
+            font-size: 1rem;
+        }
+    }
+}
+
+@media (max-width: 1320px) {
+    .your-balance {
+        padding: 3px 8px;
+        font-size: 8px;
+    }
+}
+
+@media (max-width: 992px) {
+    .competition-details {
+        padding-left: 52px;
+        min-height: 100px
+    }
+    h2.eli {
+        font-size: 1rem;
+        padding-top: 7px;
+        text-transform: uppercase;
+    }
+    .entry-price {
+        height: 44px;
+        width: 44px;
+        &:after {
+            left: -2px;
+            bottom: -1px;
+            border-left-width: 23px;
+            border-right-width: 23px;
+            border-bottom: 11px solid #292929
+        }
+    }
+    .price {
+        display: inline-block;
+        font-size: 1.2rem;
+    }
+    .competiton-statistics {
+        .stat {
+            padding: 0;
+            box-shadow: none;
+            &:not(:last-child) {
+                margin-right: 10px;
+            }
+            span:first-of-type {
+                display: none;
+            }
+        }
+    }
+    .entry,
+    p.eli,
+    .competition-name img {
+        display: none;
+    }
+    .competition-actions a {
+        box-shadow: none;
+        transform: none !important;
+        border-radius: 0;
+        text-transform: uppercase;
+        text-shadow: none;
+        margin-right: 10px;
+        font-size: .8rem;
+        &:last-of-type {
+            margin-right: 0;
+        }
+    }
+}
+
+@media (max-width: 775px) {
+    .competiton-statistics {
+        h3 {
+            font-size: .8rem;
+        }
+        .icon {
+            font-size: .95rem;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .competition-details {
+        padding-bottom: 15px;
+        .col {
+            float: none;
+            width: 100%;
+        }
+    }
+}
+
+@media (min-width: 993px) and (max-width: 1100px) {
+    .competiton-statistics .stat {
+        padding: 0 6px 5px;
+        h3 {
+            font-size: .8rem;
+        }
+    }
+}
+
+[class^="icon-sport"] {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 10px;
+  position: relative;
+  transform: translateY(-2px);
+}
+
+.icon-sport--soccer {
+  content: url(/assets/img/soccer.png);
+}
+.icon-sport--rugby {
+  content: url(/assets/img/rugby.png);
+}
+.icon-sport--tennis {
+  content: url(/assets/img/tennis.png);
+}
+.icon-sport--boxing {
+  content: url(/assets/img/boxing.png);
+}
+.icon-sport--basketball {
+  content: url(/assets/img/basketball.png);
+}
+.icon-sport--cricket {
+  content: url(/assets/img/cricket.png);
+}

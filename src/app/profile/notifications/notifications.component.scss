@@ -1,0 +1,23 @@
+@import "../../../assets/scss/core/_variables";
+.notification-container {
+    display: flex;
+    align-items: center;
+}
+
+.notification-icon {
+    color: $grey;
+    padding: 0 .8rem;
+    font-size: 1.4rem;
+}
+
+.notification-text {
+    .text {
+        display: block;
+        font-size: .8rem;
+    }
+    .date {
+        color: $grey;
+        display: block;
+        font-size: .7rem;
+    }
+}

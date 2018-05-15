@@ -1,0 +1,22 @@
+[{
+    "transactionId": "102456",
+    "date": "datetime",
+    "type": "deposit",
+    "amount": "10",
+    "currency": "GBP",
+    "status": "Fail"
+}, {
+    "transactionId": "102456",
+    "date": "datetime",
+    "type": "withdrawal",
+    "amount": "11",
+    "currency": "GBP",
+    "status": "Success"
+}, {
+    "transactionId": "102456",
+    "date": "datetime",
+    "type": "withdrawal",
+    "amount": "10",
+    "currency": "GBP",
+    "status": "Fail"
+}]

@@ -1,0 +1,59 @@
+<div class="container profile">
+  <div class="row">
+
+    <div class="col s12 l3">
+      <div class="card">
+       <ul class="profile-nav">
+          <li>
+            <a routerLink="details" routerLinkActive="active" class="u-case">
+              <i class="icon icon-user has-text-grey-lighter"></i> Your Details
+            </a>
+          </li>
+
+            <li>
+            <a routerLink="access" routerLinkActive="active" class="u-case">
+              <i class="icon icon-clock has-text-grey-lighter"></i> Time out
+            </a>
+          </li>
+
+            <li>
+            <a routerLink="deposit-restrictions" routerLinkActive="active" class="u-case">
+              <i class="icon icon-key has-text-grey-lighter"></i> Deposit restrictions
+            </a>
+          </li>
+
+          <li>
+            <a routerLink="history" routerLinkActive="active" class="u-case">
+              <i class="icon icon-history has-text-grey-lighter"></i> Game history
+            </a>
+          </li>
+
+          <li>
+            <a routerLink="password" routerLinkActive="active" class="u-case">
+              <i class="icon icon-lock has-text-grey-lighter"></i> Change password
+            </a>
+          </li>
+
+           <li>
+            <a routerLink="transactions" routerLinkActive="active" class="u-case">
+              <i class="icon icon-exchange has-text-grey-lighter"></i> Transactions
+            </a>
+          </li>
+
+          <li>
+            <a routerLink="notifications" routerLinkActive="active" class="u-case">
+              <i class="icon icon-bell-alt has-text-grey-lighter"></i> Notifications
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class=" col s12 l9">
+      <div class="card">
+        <router-outlet></router-outlet>
+      </div>
+    </div>
+
+  </div>
+</div>

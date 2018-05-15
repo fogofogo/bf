@@ -1,0 +1,9 @@
+<div class="container competitions">
+  <div class="row">
+    <div class=" col s12 l8">
+        <ng-container *ngFor="let competition of competitions | sort:'id'">
+        <competition-details [competition]="competition" [viewAction]="true"></competition-details>
+      </ng-container>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,65 @@
+<h2 class="title">Hello {{ currentUser.firstName }} {{ currentUser.lastName }}</h2>
+<list-errors [errors]="errors"></list-errors>
+
+<div class="contacts">
+    <h3>Contact details</h3>
+    <button *ngIf="!editPhone" class="btn-grey-3d btn-edit" (click)="editPhone=true"><i class="icon icon-pencil"></i></button>
+    <strong>Email: </strong> {{ currentUser.email }}<br>
+    <strong>Phone number: </strong>
+    <span *ngIf="!editPhone">{{ currentUser.phoneNumber }}</span>
+    <form *ngIf="editPhone" [formGroup]="formPhoneNumber" (ngSubmit)="updatePhoneNumber(formPhoneNumber.value)">
+        <input type="text" id="phoneNumberInput" placeholder="Enter phone number" [formControl]="formPhoneNumber.controls['phoneNumber']">
+        <div *ngIf="!formPhoneNumber.controls['phoneNumber'].valid">Phone number is invalid</div>
+        <div class="actions">
+            <button class="btn-grey-3d register" *ngIf="editPhone" (click)="editPhone=false">Cancel</button>
+            <button class="btn-main-3d register" type="submit" [disabled]="!formPhoneNumber.valid">Change contacts</button>
+        </div>
+    </form>
+
+</div>
+
+<div class="address">
+    <h3>Address:</h3>
+    <button class="btn-grey-3d btn-edit" *ngIf="!editAddress" (click)="editAddress=true"><i class="icon icon-pencil"></i></button>
+    <div *ngIf="!editAddress">
+        <!--<p *ngIf="currentUser.address.lineOne"> {{ currentUser.address.lineOne }}</p>
+        <p *ngIf="currentUser.address.lineTwo"> {{ currentUser.address.lineTwo }}</p>
+        <p *ngIf="currentUser.address.lineThree"> {{ currentUser.address.lineThree }}</p>
+        <p *ngIf="currentUser.address.city"> {{ currentUser.address.city }}</p>
+        <p *ngIf="currentUser.address.country"> {{ currentUser.address.country }}</p>
+        <p *ngIf="currentUser.address.postcode"> {{ currentUser.address.postcode }}</p>-->
+    </div>
+    <form *ngIf="editAddress" [formGroup]="formAddress" (ngSubmit)="updateAddress(formAddress.value)">
+        <fieldset>
+            <label>Line 1</label>
+            <input type="text" placeholder="Enter line 1 address" [formControl]="formAddress.controls['lineOne']">
+            <div *ngIf="!formAddress.controls['lineOne'].valid">lineOne is required</div>
+        </fieldset>
+        <fieldset>
+            <label>Line 2</label>
+            <input type="text" placeholder="Enter line 2 address" [formControl]="formAddress.controls['lineTwo']">
+        </fieldset>
+        <fieldset>
+            <label>Line 3</label>
+            <input type="text" placeholder="Enter line 3 address" [formControl]="formAddress.controls['lineThree']">
+        </fieldset>
+        <fieldset>
+            <label>City</label>
+            <input type="text" placeholder="Enter city" [formControl]="formAddress.controls['city']">
+        </fieldset>
+        <fieldset>
+            <label>Country</label>
+            <input type="text" placeholder="Enter postcode" [formControl]="formAddress.controls['country']">
+        </fieldset>
+        <fieldset>
+            <label>Postcode</label>
+            <input type="text" placeholder="Enter postcode" [formControl]="formAddress.controls['postcode']">
+        </fieldset>
+
+        <div class="actions">
+
+            <button *ngIf="editAddress" class="btn-grey-3d register" (click)="editAddress=false">Cancel</button>
+            <button type="submit" class="btn-main-3d register" [disabled]="!formAddress.valid">Submit</button>
+        </div>
+    </form>
+</div>

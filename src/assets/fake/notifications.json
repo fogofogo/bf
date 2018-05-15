@@ -1,0 +1,32 @@
+[{
+  "category": "competition",
+  "type": "user-joined",
+  "competitionId": "12",
+  "timestamp": "2017-09-14T19:23:42.125Z",
+  "isRead": false,
+  "notificationsText": "Super Saturday Football is about to start"
+  }
+,{
+  "category": "competition",
+  "type": "match-settlement",
+  "competitionId": "12",
+  "timestamp": "2017-09-14T19:23:42.125Z",
+  "isRead": true,
+  "notificationsText": "Please meet the base betting rules for Super Saturday Football to qualify"
+},
+{
+  "category": "competition",
+  "type": "match-settlement",
+  "competitionId": "12",
+  "matchId": "981221",
+  "timestamp": "2017-09-14T19:23:42.125Z",
+  "isRead": true,
+  "notificationsText": "You won your bet 'Roy Keane to score first'!"
+},
+{
+  "category": "profile",
+  "type": "changed-password",
+  "timestamp": "2017-09-14T19:23:42.125Z",
+  "isRead": true,
+  "notificationsText": "You changed your password"
+}]

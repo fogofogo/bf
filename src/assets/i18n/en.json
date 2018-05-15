@@ -1,0 +1,72 @@
+{
+  "navigation": {
+    "home": "HOME",
+    "howToPlay": "HOW TO PLAY",
+    "competitions": "COMPETITIONS",
+    "createCompetitions": "CREATE A COMPETITION!",
+    "multigame": "MULTIGAME",
+    "singleGame": "SINGLE GAME",
+    "1on1games": "1 ON 1 GAMES",
+    "competitionHome": "COMPETITION HOME",
+    "leaderboard": "LEADERBOARD",
+    "betHistory": "BET HISTORY",
+    "login": "LOGIN",
+    "register": "REGISTER",
+    "logout": "LOGOUT"
+  },
+  "sports": {
+    "all": "ALL",
+    "soccer": "SOCCER",
+    "rugby": "RUGBY",
+    "tennis": "TENNIS",
+    "racing": "RACING",
+    "boxing": "BOXING",
+    "basketball": "BASKETBALL",
+    "cricket": "CRICKET"
+  },
+  "shared": {
+    "hello": "HELLO",
+    "startingSoon": "STARTS",
+    "entry": "ENTRY",
+    "players": "PLAYERS",
+    "pot": "POT",
+    "enter": "ENTER",
+    "home": "HOME",
+    "draw": "DRAW",
+    "away": "AWAY"
+  },
+  "auth": {
+    "alreadyHaveAccount": "Already have an account?",
+    "signIn": "Sign in",
+    "signUpAccount?": "Sign up for a free account?",
+    "enterYourFullName": "Enter your full name",
+    "enterYourAlias": "Username",
+    "enterYourEmail": "Enter your email",
+    "enterYourPassword": "Enter your password",
+    "forgotpassword": "Forgot password?"
+  },
+
+    "password-missing-digit": "Password needs a digit",
+    "password-missing-uppercase": "Password needs an uppercase character",
+    "password-missing-special": "Password needs a special character",
+    "password-too-short": "Password is too short",
+    "proposed-password-missing-digit": "Password needs a digit",
+    "proposed-password-missing-uppercase": "Password needs an uppercase character",
+    "proposed-password-missing-special": "Password needs a special character",
+    "proposed-password-too-short": "Password is too short",
+    "passwords-must-not-match": "Please use a password that you have not used before",
+    "username-exists": "Username already exists",
+    "credentials-incorrect": "Username or password incorrect",
+    "phone-number-invalid": "Please check the format of your phone number",
+    "one-day": "1 day",
+    "two-days": "2 days",
+    "three-days": "3 days",
+    "seven-days": "7 days",
+    "one-month": "1 month",
+    "one-week": "1 week",
+    "joined-compeition": "You have joined a competition"
+}
+
+
+
+

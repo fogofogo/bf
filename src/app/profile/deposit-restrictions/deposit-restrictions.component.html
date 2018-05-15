@@ -1,0 +1,17 @@
+<h2 class="title">Restrict deposits</h2>
+
+Set your desposit restrictions below and select 'submit'.
+
+<form [formGroup]="formDepositRestrictionDurations" (ngSubmit)="setDepositRestriction(formDepositRestrictionDurations)">
+  <table class="restrictions">
+  <tbody>
+    <tr *ngFor="let depositRestrictionDuration of depositRestrictionDurations">
+      <td>{{ depositRestrictionDuration | translate}}</td>
+      <td><input type="text" name="{{depositRestrictionDuration}}"></td>
+    </tr>
+  </tbody>
+</table>
+  
+  <button class="btn-main-3d" type="submit">submit</button>
+</form>
+

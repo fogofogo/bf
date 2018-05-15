@@ -1,0 +1,29 @@
+<div class="container">
+  <div class="markets">
+
+    <div class="market-title">
+      Markets
+    </div>
+ <div *ngFor="let market of markets; let i = index; trackBy: trackByFn">
+
+          <ng-container >
+
+            <div class="market row">
+              <div class="col s6 title">
+                {{ market.name }}
+              </div>
+            </div>
+
+            <div class="markets-container">
+              <ng-container *ngFor="let outcome of market.Outcomes; let i = index; trackBy: trackByFn1">
+                <a class="outcome" id="{{outcome.id}}" (click)="addToBetSlip($event, fixture?.fixture.name, market, outcome)" #cmp>
+                  <span class="market-name">{{ outcome.name}}.</span>
+                  <span class="market-odd">{{ outcome.odds }}</span>
+                </a>
+              </ng-container>
+            </div>
+          </ng-container>
+        </div>
+  </div>
+
+</div>

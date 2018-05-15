@@ -1,0 +1,37 @@
+{
+  "navigation": {
+    "home": "ZUHAUSE",
+    "howToPlay": "SPIELANLEITUNG",
+    "competitions": "WETTBEWERBE",
+    "createCompetitions": "SCHREIBEN SIE EINEN WETTBEWERB!",
+    "multigame": "MULTIGAME",
+    "singleGame": "EINZELSPIEL",
+    "1on1games": "1 ON 1 SPIELE",
+    "competitionHome": "WETTBEWERB HOME",
+    "leaderboard": "BESTENLISTE",
+    "betHistory": "BET GESCHICHTE",
+    "login": "ANMELDUNG",
+    "register": "NEU REGISTRIEREN"
+  },
+   "sports": {
+    "all": "ALLE",
+    "soccer": "FUSSBALL",
+    "rugby": "RUGBY",
+    "tennis": "TENNIS",
+    "racing": "RENNEN",
+    "boxing": "BOXEN",
+    "basketball": "BASKETBALL",
+    "cricket": "KRICKET"
+  },
+   "shared": {
+    "hello": "HALLO",
+    "startingSoon": "BEGINNT BALD",
+    "entry": "EINTRAG",
+    "players": "SPIELER",
+    "pot": "POT",
+    "enter": "ENTER",
+    "home": "ZUHAUSE",
+    "draw": "ZEICHNEN",
+    "away": "EIN WEG"
+  }
+}

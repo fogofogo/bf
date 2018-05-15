@@ -1,0 +1,20 @@
+<h2 class="title">Your notifications</h2>
+
+<ng-container *ngFor="let notification of notifications">
+  <div class="notification-container" [ngClass]="{'unread': !notification.isRead}">
+    <div class="notification-icon">
+        <i  class="icon icon-{{notification.category}}"></i>
+    </div>
+    <div class="notification-text">
+        <span class="text">
+            <a routerLink="{{notificationLink}}">
+            {{ notification.notificationText }} 
+            </a>
+        </span>
+        <span class="date">
+            {{ notificationDate }}
+        </span>
+    </div>
+
+</div>
+</ng-container>

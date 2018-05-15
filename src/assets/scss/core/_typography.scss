@@ -1,0 +1,42 @@
+/*
+ * Base styles
+ */
+
+body {
+  color: $text-color;
+  font-size: $base-font-size !important;
+  font-family: $base-font-family;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2.5em;
+}
+h2 {
+  font-size: 1.5em;
+}
+h3 {
+  font-size: 1.2em;
+}
+
+.sm-label, .sm-text {
+  font-size: .6rem;
+  display: block;
+}
+
+a {
+  cursor: pointer;
+}
+
+
+ // colour helper classes
+.has-text-yellow { color: $bet-yellow; }
+.has-text-white { color: $white; }
+.has-text-grey { color: $bet-grey; }
+.has-text-grey-light { color: $bet-grey--light; }
+.has-text-grey-lighter { color: $bet-grey--lighter; }
+

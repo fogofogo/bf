@@ -1,0 +1,47 @@
+[
+    {
+        "betId": "102456",
+        "datePlaced": "11/11/2017 10.35am",
+        "bet": "Red Star FC",
+        "market":"Full time result / Win",
+        "stake": "100 @ 2/1",
+        "potentialReturn": "300",
+        "status": "Pending"
+    },
+    {
+        "betId": "102456",
+        "datePlaced": "11/11/2017 10.45am",
+        "bet": "Liverpool FC V Manchester Utd",
+        "market":"Full time result / Draw",
+        "stake": "100 @ 12/1",
+        "potentialReturn": "1300",
+        "status": "Pending"
+    },
+    {
+        "betId": "102456",
+        "datePlaced": "11/11/2017 10.55am",
+        "bet": "Munster",
+        "market":"Full time result / Win",
+        "stake": "100 @ 8/1",
+        "potentialReturn": "900",
+        "status": "Success"
+    },
+      {
+        "betId": "102456",
+        "datePlaced": "11/11/2017 10.35am",
+        "bet": "Red Star FC",
+        "market":"Full time result / Win",
+        "stake": "100 @ 2/1",
+        "potentialReturn": "300",
+        "status": "Fail"
+    },
+    {
+        "betId": "102456",
+        "datePlaced": "11/11/2017 10.45am",
+        "bet": "Liverpool FC V Manchester Utd",
+        "market":"Full time result / Draw",
+        "stake": "100 @ 12/1",
+        "potentialReturn": "1300",
+        "status": "Success"
+    }
+]

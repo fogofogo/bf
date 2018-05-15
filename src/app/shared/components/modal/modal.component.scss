@@ -1,0 +1,77 @@
+.modal {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    overflow: hidden;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+}
+
+
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 10px;
+}
+
+
+.modal.in .modal-dialog {
+    transform: translate(0, 0);
+}
+
+
+.modal-header {
+    padding: 0 10px;
+}
+
+.modal-body {
+    position: relative;
+    padding: 10px;
+    text-align: center;
+}
+
+.modal-body__inner {
+    position: relative;
+    backface-visibility: hidden;
+    display: inline-block;
+    text-align: left;
+
+    &:before {
+        content: "";
+        position: absolute;
+        width: 95px;
+        height: 59px;
+        left: 0;
+        top: 0;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+.modal-footer {
+    padding: 10px;
+    text-align: right;
+}
+
+
+
+
+    .modal.in .modal-dialog {
+        top: 100px;
+        transform: translate(0, 0);
+    }
+
+
+
+
+@media (min-width: 768px) {
+    .modal-dialog {
+        width: 600px;
+        margin: 30px auto;
+    }
+}
